@@ -1,0 +1,19 @@
+{
+  "name": "Offers",
+  "description": "",
+  "image": "heroku/python",
+  "repository": "https://github.com/cristhian1207/rpl-offers",
+  "keywords": ["python", "flask" ],
+  "addons": [ ],
+  "env": {
+    
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python app.py collectstatic --noinput",
+        "test": "python app.py test"
+      }
+    }
+  }
+}
